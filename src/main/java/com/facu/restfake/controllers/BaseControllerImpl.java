@@ -21,8 +21,6 @@ public abstract class BaseControllerImpl<E extends Base, S extends BaseServiceIm
         }
     }
 
-
-
     @GetMapping("/{id}")
     public ResponseEntity<?> getOne(@PathVariable Long id) {
         try {
